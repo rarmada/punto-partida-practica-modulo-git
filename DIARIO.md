@@ -24,7 +24,10 @@ El problema es que el repositorio original puede seguir recibiendo cambios. Para
 
 
 # Tarea 3 — Feature branch B: añadir la Opción 6 (aquí está el conflicto)
-
+git switch dev
+git switch -c feature/opcion-6
+git commit -m "feat: añadir Opción 6 y actualizar descripción de Opció…
+git push -u origin feature/opcion-6
 Un conflicto en Git ocurre cuando dos ramas han modificado la misma línea del mismo fichero de forma diferente,
 Hemos cmabiado la misma linea en dos ramas:
 feature/opcion-5 cambió esa línea a "Flujo de trabajo"
