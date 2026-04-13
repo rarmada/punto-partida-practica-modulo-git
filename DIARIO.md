@@ -21,5 +21,9 @@ Captura 3	La app en el navegador con la Opción 5 recién añadida
 <img width="1850" height="1340" alt="image" src="https://github.com/user-attachments/assets/9ba2d891-7ae2-4bae-aa17-4e36136732c8" />
 
 
-
+Tarea 3 — Feature branch B: añadir la Opción 6 (aquí está el conflicto)
 Un conflicto en Git ocurre cuando dos ramas han modificado la misma línea del mismo fichero de forma diferente,
+Hemos cmabiado la misma linea en dos ramas:
+feature/opcion-5 cambió esa línea a "Flujo de trabajo"
+feature/opcion-6 cambió esa misma línea a "Flujo profesional"
+
