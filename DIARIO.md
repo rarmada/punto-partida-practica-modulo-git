@@ -86,11 +86,36 @@ Diario: Explica qué revisaste en la pestaña Files changed y por qué es útil 
 
 <img width="3779" height="1753" alt="image" src="https://github.com/user-attachments/assets/b7e6a560-fe21-4a7f-ac5a-00bd263c23cd" />
 
+## Tarea 5 — Pull Request 2: Feature B a dev, conflicto
 
 <img width="2466" height="776" alt="image" src="https://github.com/user-attachments/assets/88937feb-9a25-4327-83cf-fd6ac94e6d97" />
 
+<img width="1641" height="1177" alt="image" src="https://github.com/user-attachments/assets/57a6436f-4985-431a-b344-a4b9ea9095de" />
+
+Podemos resolver el conflicto directamente en Github, con el editor web, pero vamos a resolverlo en LOCAL siguiendo estos pasos:
+
+Desde VSCode 
+
+git switch feature/opcion-6
+git fetch origin dev
+git merge origin/dev
+
+<img width="2457" height="677" alt="image" src="https://github.com/user-attachments/assets/f94c9d49-f818-4f81-8452-0944d5eff6b9" />
+
+<img width="2535" height="955" alt="image" src="https://github.com/user-attachments/assets/c4179e9f-9007-4874-90da-60ebc03ace12" />
 
 
+Aceptamos los cambios 
+<img width="2072" height="1447" alt="image" src="https://github.com/user-attachments/assets/bb8b4d26-34bc-4aa9-a00c-e706aeb5ab1c" />
+
+Resolvemos el conficto y el commit
+git add .
+git commit -m "merge: resolución conflictos rama feature/opcion-6
+git push origin feature/opcion-6
+
+Vamos a github
+
+<img width="1599" height="1287" alt="image" src="https://github.com/user-attachments/assets/f0ebae9b-b322-413a-beca-28ba301bc12e" />
 
 
-
+**
