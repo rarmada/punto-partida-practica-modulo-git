@@ -17,11 +17,7 @@ const OPTIONS: Option[] = [
   {
     id: 2,
     title: "Opción 2",
-<<<<<<< HEAD
     description: "Ramas y merges ",
-=======
-    description: "Ramas de Git",
->>>>>>> origin/dev
     message:
       "Una rama es como una linea de tiempo alternativa de tu codigo. Puedes experimentar, cometer errores y fusionar solo lo que funciona.",
     featureFlag: false,
