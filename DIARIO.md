@@ -118,4 +118,12 @@ Vamos a github
 <img width="1599" height="1287" alt="image" src="https://github.com/user-attachments/assets/f0ebae9b-b322-413a-beca-28ba301bc12e" />
 
 
-**
+## Tarea 6 — Limpieza y cierre del diario
+
+<img width="785" height="745" alt="image" src="https://github.com/user-attachments/assets/d658137b-bcdf-4688-bf50-b30e323991b2" />
+
+<img width="1968" height="232" alt="image" src="https://github.com/user-attachments/assets/5f43a3fc-599c-4f94-89a4-c07351dbc4e9" />
+
+
+
+
