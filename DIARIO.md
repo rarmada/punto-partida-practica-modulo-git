@@ -56,3 +56,41 @@ Siempre trabajamos en la rama Dev que es la de desarrollo
 
 ## Tarea 3 — Feature branch B: añadir la Opción 6 (aquí está el conflicto)
 
+Vuelve a dev y crea la rama feature/opcion-6 desde ahí.
+```
+git switch dev
+git switch -c feature/opcion-6
+```
+Realizamos las modificaciones solicitadas
+
+Haz un commit con el mensaje: feat: añadir Opción 6 y actualizar descripción de Opción 3
+```
+git add .
+git commit -m "feat: añadir Opción 6 y actualizar descripción de Opción 3"
+```
+Sube la rama a tu fork.
+```
+git push origin feature/opcion-6
+```
+Explica qué es un conflicto en Git y por qué se va a producir aquí.
+Un conflicto ocurre cuando Git no puede fusionar automáticamente dos ramas porque ambas han modificado las mismas líneas del mismo archivo de forma diferente y no sabe cuál versión conservar.
+Hemos modificado la descripción en las dos ramas.
+
+## Tarea 4 — Pull Request 1: Feature A a dev
+Abre una Pull Request en GitHub desde feature/opcion-5 hacia dev.
+Ponle como título: feat: añadir Opción 5 y actualizar descripción de Opción 3
+Antes de mergear, abre la pestaña Files changed y revisa el diff.
+Mergea el PR.
+Actualiza tu rama dev local con git pull origin dev.
+Diario: Explica qué revisaste en la pestaña Files changed y por qué es útil hacerlo antes de mergear. Adjunta la captura 4.
+
+<img width="3779" height="1753" alt="image" src="https://github.com/user-attachments/assets/b7e6a560-fe21-4a7f-ac5a-00bd263c23cd" />
+
+
+<img width="2466" height="776" alt="image" src="https://github.com/user-attachments/assets/88937feb-9a25-4327-83cf-fd6ac94e6d97" />
+
+
+
+
+
+
