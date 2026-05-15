@@ -17,9 +17,9 @@ const OPTIONS: Option[] = [
   {
     id: 2,
     title: "Opción 2",
-    description: "Ramas",
+    description: "Ramas y merges ",
     message:
-      "Una rama es una línea de desarrollo independiente. Puedes crear, fusionar y eliminar ramas sin afectar a main.",
+      "Una rama es como una linea de tiempo alternativa de tu codigo. Puedes experimentar, cometer errores y fusionar solo lo que funciona.",
     featureFlag: false,
   },
   {
